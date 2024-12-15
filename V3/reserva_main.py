@@ -20,7 +20,7 @@ import formula_update
 import Bank
 import move_bank_efi
 import hsmo_vt
-import cpps
+import cps
 
 # Funções
 from shapoint import moves_to_sharepoint, imagens_process, wait_for_button, delete_files
@@ -51,7 +51,7 @@ importlib.reload(efiPerdas)
 importlib.reload(Bank)
 importlib.reload(move_bank_efi)
 importlib.reload(hsmo_vt)
-importlib.reload(cpps)
+importlib.reload(cps)
 
 def prevent_sleep_windows():
     ctypes.windll.kernel32.SetThreadExecutionState(0x80000002)
@@ -76,35 +76,35 @@ def main():
         time.sleep(5)
         
         mmm_1()
-        print("------------------------------Biscoito finalizada!------------------------------")
+        print("------------------------------Arquivo1 finalizada!------------------------------")
         time.sleep(5)
         
         hora_fim = datetime.now().strftime("%H:%M")
         print(f"-------------São exatamente...{hora_fim}-------------")
 
         mmm_2()
-        print("------------------------------Bolos finalizada!------------------------------")
+        print("------------------------------Arquivo2 finalizada!------------------------------")
         time.sleep(5)
         
         hora_fim = datetime.now().strftime("%H:%M")
         print(f"-------------São exatamente...{hora_fim}-------------")
         
         mmm_3()
-        print("------------------------------Massas finalizada!------------------------------")
+        print("------------------------------Arquivo3 finalizada!------------------------------")
         time.sleep(5)
         
         hora_fim = datetime.now().strftime("%H:%M")
         print(f"-------------São exatamente...{hora_fim}-------------")
         
         mmm_4()
-        print("------------------------------Snacks finalizada!------------------------------")
+        print("------------------------------Arquivo4 finalizada!------------------------------")
         time.sleep(5)
         
         hora_fim = datetime.now().strftime("%H:%M")
         print(f"-------------São exatamente...{hora_fim}-------------")
         
         mmm_5()
-        print("------------------------------Wafer finalizada!------------------------------")
+        print("------------------------------Arquivo5 finalizada!------------------------------")
         time.sleep(5)
         
         hora_fim = datetime.now().strftime("%H:%M")
